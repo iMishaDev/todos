@@ -1,0 +1,38 @@
+body {
+   background-color: #1d2d50 !important;
+}
+
+.card {
+    background-color: #4c566d !important;
+    border-radius: 25px !important;
+    color: #1d2d50;
+    width: 50%;
+
+    @media only screen and (max-width: 570px) {
+        width: 90%;
+    }
+}
+
+.card-header, .card-footer {
+    color: white !important
+}
+
+.btn-primary { 
+    background-color: #1e5f74 !important;
+    border: none !important;
+}
+
+.todo-container {
+    color: white !important;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+a {
+    color: white !important;
+    font-weight: bold;
+}
